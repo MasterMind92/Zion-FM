@@ -24,53 +24,16 @@
 	</head>
 	<body>
 		<!-- debut du header-->
-		<div class="row">
-			<div class="col-md-offset-1 col-lg-offset-1 col-md-10 col-lg-10">
-				<div class="col-md-2 col-lg-2">
-					<img src="image/Zlogo.png" class="img-responsive" alt="Image">
-				</div>
-				<div class="col-md-10 col-lg-10">
-					<!-- le menu-->
-					<div class="col-md-12 col-lg-12">
-						<div class="btn-group btn-group-justified">
-							<a class="btn btn-default" href="#" role="button">Accueil</a>
-							<a class="btn btn-default" href="#" role="button">Actualités</a>
-							<a class="btn btn-default" href="#" role="button">Actualités</a>
-							<a class="btn btn-default" href="#" role="button">Actualités</a>
-							<a class="btn btn-default" href="#" role="button">Actualités</a>
-							<a class="btn btn-default" href="#" role="button">Actualités</a>
-							<a class="btn btn-default" href="#" role="button">Actualités</a>
-							<a class="btn btn-default" href="#" role="button">Actualités</a>
-							<a class="btn btn-default" href="#" role="button">Actualités</a>
-						</div>
-					</div>
-					<!-- fin du menu-->
-					<div class="col-md-8 col-lg-8">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. 
-					</div>
-					<div class="col-md-4 col-lg-4">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. 
-					</div>
-
-				</div>
-			</div>
-		</div>
+		<?php 
+			include("header.php");
+		?>
 		<!-- fin du header-->
 		<!-- le corps-->		
 		<div class="row">
 			<div class="col-md-offset-1 col-lg-offset-1 col-md-10 col-lg-10">
 				<!-- les headlines-->
 				<div class="col-md-6 col-lg-6">
-				
+					
 				</div>
 				<div class="col-md-6 col-lg-6">
 					<div class="col-md-6 col-lg-6">
@@ -410,81 +373,9 @@
 		</div>
 		<!--fin du corps-->
 		<!-- le footer-->
-		<div class="row">
-			<div class="col-md-offset-1 col-lg-offset-1 col-md-10 col-lg-10">
-				<!--1ère partie-->
-				<div class="col-md-12 col-lg-12">
-					<div class="col-md-3 col-lg-3">
-						<img src="image/Zlogo.png" class="img-responsive" alt="Image">
-					</div>
-					<div class="col-md-3 col-lg-3">
-						<img src="image/Zlogo.png" class="img-responsive" alt="Image">
-					</div>
-					<div class="col-md-3 col-lg-3">
-						<img src="image/Zlogo.png" class="img-responsive" alt="Image">
-					</div>
-					<div class="col-md-3 col-lg-3">
-						<img src="image/Zlogo.png" class="img-responsive" alt="Image">
-					</div>
-				</div>
-				<!--2ème parie-->
-				<div class="col-md-12 col-lg-12">
-					<div class="col-md-3 col-lg-3">
-						<table class="table table-hover">
-							<tbody>
-								<tr>
-									<td><a href="#">something</a></td>
-								</tr>
-								<tr>
-									<td><a href="#">something</a></td>
-								</tr>
-								<tr>
-									<td><a href="#">something</a></td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="col-md-3 col-lg-3">
-						<table class="table table-hover">
-							<tbody>
-								<tr>
-									<td><a href="#">something</a></td>
-								</tr>
-								<tr>
-									<td><a href="#">something</a></td>
-								</tr>
-								<tr>
-									<td><a href="#">something</a></td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="col-md-3 col-lg-3">
-						<table class="table table-hover">
-							<tbody>
-								<tr>
-									<td><a href="#">something</a></td>
-								</tr>
-								<tr>
-									<td><a href="#">something</a></td>
-								</tr>
-								<tr>
-									<td><a href="#">something</a></td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="col-md-3 col-lg-3">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</div>
-				</div>
-			</div>
-		</div>
+		<?php 
+			include("footer.php");
+		?>
 		<!-- jQuery -->
 		<script src="//code.jquery.com/jquery.js"></script>
 		<!-- Bootstrap JavaScript -->
