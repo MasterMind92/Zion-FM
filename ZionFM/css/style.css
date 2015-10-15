@@ -1,0 +1,58 @@
+#headerBG{
+	background-image: url("../img/foule.jpg");
+	height: 400px;
+}
+
+#header{
+	margin-bottom: 20px;
+}
+
+.espace{
+	margin-top: 160px;
+	height: 163px;
+}
+
+
+
+#separe{
+	height: 20px;	
+}
+
+
+#pub{
+	height: 300px;
+	padding: 0px;
+}
+
+#Face{
+	height: 400px;
+	padding: 0px;
+}
+
+#Twitter{
+	height: 400px;
+	padding: 0px;
+}
+
+.Suivre{
+	margin-top: 70px;
+}
+
+#logo-img{
+	height: 160px;
+	padding: 0px;
+}
+
+.footer{
+	height: 200px;
+	padding: 0px;	
+}
+#footer{
+	height: 250px;
+}
+
+#Radio{
+	position: relative;
+	top: 10px;
+}
+
