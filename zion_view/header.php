@@ -9,7 +9,7 @@
 						<div class="btn-group">
 							<a class="btn btn-default" href="index.php" role="button">Accueil</a>
 							<a class="btn btn-default" href="newsview.php" role="button">Actualités</a>
-							<a class="btn btn-default" href="#" role="button">Actualités</a>
+							<a class="btn btn-default" href="Tvview.php" role="button">Actualités</a>
 							<a class="btn btn-default" href="#" role="button">Actualités</a>
 							<a class="btn btn-default" href="#" role="button">Actualités</a>
 							<a class="btn btn-default" href="#" role="button">Actualités</a>
